@@ -1,0 +1,14 @@
+[package]
+name = "aws-tools"
+version = "0.1.0"
+authors = ["Steve McKay <steve@b.abbies.us>"]
+
+[dependencies]
+docopt = "1.0"
+lazy_static = "1.0"
+regex = "1.0"
+rusoto_core = "0.32"
+rusoto_sqs = "0.32"
+rusoto_s3 = "0.32"
+serde = "1.0"
+serde_derive = "1.0"
